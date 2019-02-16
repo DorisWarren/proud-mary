@@ -1,0 +1,50 @@
+@import 'abstracts/variables';
+
+@import 'base/reset';
+@import 'base/typography';
+
+@import 'layout/main';
+
+.main-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 55px;
+  border-bottom: 1px solid darkgray;
+  text-decoration: none;
+  a {
+    margin: 0px 10px;
+    text-decoration: none;
+    color: darkgray;
+  }
+}
+
+img {
+  width: 53%;
+}
+
+
+.fa-search {
+  padding-right: 12px;
+  padding-left: 10px;
+}
+
+.featured-collections {
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+
+}
+
+.coffee-sales {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  flex-direction: row;
+
+  div {
+    width:30%
+    // height:auto;
+    // margin-bottom: 15px;
+  }
+}
