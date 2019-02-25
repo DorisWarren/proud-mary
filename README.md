@@ -14,11 +14,11 @@
 
 * _Real Proud Mary Coffee website preview_
 
-![Screen Shot]("img/original.png")
+![Screen Shot](img/original.png)
 
 * _Clone Proud Mary Coffee website preview_
 
-![Screen Shot]("img/copy.png")
+![Screen Shot](img/copy.png)
 
 ## Setup/Installation Requirements
 
