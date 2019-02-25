@@ -5,6 +5,11 @@
 
 @import 'layout/main';
 
+body{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
 .main-header {
   display: flex;
   justify-content: space-between;
@@ -16,10 +21,20 @@
     margin: 0px 10px;
     text-decoration: none;
     color: darkgray;
+    padding: 3px 10px 3px 10px;
+    letter-spacing: .1em;
+    color: #3d4246;
+    font-weight: 325;
   }
 }
 
-img {
+.links {
+  width: 44%;
+  display: flex;
+  flex-flow: wrap row;
+}
+
+#logo {
   width: 53%;
 }
 
@@ -33,18 +48,110 @@ img {
   display: flex;
   justify-content: center;
   padding-top: 50px;
+  padding-bottom: 50px;
 
 }
 
 .coffee-sales {
+  margin: 0 20px 80px 20px;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-around;
   flex-direction: row;
+  max-width: 1200px;
+  p {
+    padding-top: 10px;
+
+  }
 
   div {
-    width:30%
+    width:23vw;
+    max-width:275px;
+    overflow: hidden;
+    img {
+      width: 100%;
+      height: 23vw;
+      max-height: 275px;
+    }
     // height:auto;
     // margin-bottom: 15px;
   }
+}
+img  {
+  max-width: 100%;
+}
+
+.mushrooms {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  height: 55vw;
+  overflow: hidden;
+  #Mushroom {
+    width: 100%;
+    height: 70vw;
+  }
+}
+.nolan {
+  display: flex;
+  flex-direction: row;
+  // margin: auto;
+  padding: 100px 55px 100px 55px;
+  width:545px;
+
+
+  #bign{
+    margin-right: 50px;
+
+  }
+  .our-story {
+    padding: 40px 0 40px 0;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    // max-width: 989px;
+    color: #788188;
+  }
+  h2{
+    font-weight: bold;
+    color: black;
+  }
+  button{
+    display: flex;
+    background-color: #7796a8;
+    width: auto;
+    height: 65px;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    letter-spacing: 0.08em;
+    font-size: 14px
+  }
+}
+
+.updates{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 750px) {
+  .coffee-sales {
+    div {
+      width:46vw;
+      img {
+        width: 100%;
+        height: 46vw;
+      }
+    }
+  }
+  .links {
+    display: none;
+  }
+  .nolan
+    img{
+      width: 100%;
+    }
 }
