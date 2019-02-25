@@ -10,11 +10,11 @@
 
 * _I made a clone version of the website Proud Mary Coffee_
 
-* _Once website is under 700px top Nav will disappear and columns will become 100% in width_
+* _Once website is under 750px top Nav will wrap_
 
 * _Real Proud Mary Coffee website preview_
 
-![Screen Shot]("proud-mary/img/original.png")
+![Screen Shot]("img/original.png")
 
 * _Clone Proud Mary Coffee website preview_
 
