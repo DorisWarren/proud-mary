@@ -8,13 +8,17 @@
 
 * _The purpose of this project is to make a clone of a website we like or use constantly._
 
-* _Can clone version of the website Proud Mary Coffee_
+* _I made a clone version of the website Proud Mary Coffee_
 
 * _Once website is under 700px top Nav will disappear and columns will become 100% in width_
 
-![Screen Shot]("img/screenshot1.png")
+* _Real Proud Mary Coffee website preview_
 
-![Screen Shot]("img/screenshot2.png")
+![Screen Shot]("proud-mary/img/original.png")
+
+* _Clone Proud Mary Coffee website preview_
+
+![Screen Shot]("img/copy.png")
 
 ## Setup/Installation Requirements
 
@@ -22,7 +26,7 @@
 * _Github link_
 * _Open folder_
 * _Open index.html_
-* _use atom to open up repository *look at webpage by opening up repository then viewing through google chrome_
+* _You may use Atom to open up repository *look at webpage by opening up repository then viewing through google chrome_
 
 ## Known Bugs
 
